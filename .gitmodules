@@ -1,0 +1,9 @@
+[submodule "apps"]
+	path = apps
+	url = git@github.com:fengyuchaochao/microApp1.git
+[submodule "apps/microApp1"]
+	path = apps/microApp1
+	url = git@github.com:fengyuchaochao/microApp1.git
+[submodule "apps/microApp2"]
+	path = apps/microApp2
+	url = git@github.com:fengyuchaochao/microApp2.git
