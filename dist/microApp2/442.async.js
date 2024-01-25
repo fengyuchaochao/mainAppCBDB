@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicro_app2=self.webpackChunkmicro_app2||[]).push([[442],{35442:function(s,n,t){t.r(n),t.d(n,{default:function(){return o}});var O=t(58757),u=t(38029),E=t(35667);function o(){var c=(0,u.useOutletContext)();return(0,E.jsx)(u.Outlet,{context:c})}}}]);

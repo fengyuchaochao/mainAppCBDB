@@ -4,6 +4,80 @@ importers:
 
   .: {}
 
+  apps/microApp1:
+    dependencies:
+      '@ant-design/icons':
+        specifier: ^5.2.6
+        version: 5.2.6(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-components':
+        specifier: ^2.6.48
+        version: 2.6.48(antd@5.13.2)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.2.0)
+      '@umijs/max':
+        specifier: ^4.1.1
+        version: 4.1.1(@babel/core@7.23.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(dva@2.5.0-beta.2)(prettier@3.2.4)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.90.0)
+      antd:
+        specifier: ^5.13.2
+        version: 5.13.2(react-dom@18.2.0)(react@18.2.0)
+    devDependencies:
+      '@types/react':
+        specifier: ^18.2.48
+        version: 18.2.48
+      '@types/react-dom':
+        specifier: ^18.2.18
+        version: 18.2.18
+      lint-staged:
+        specifier: ^15.2.0
+        version: 15.2.0
+      prettier:
+        specifier: ^3.2.4
+        version: 3.2.4
+      prettier-plugin-organize-imports:
+        specifier: ^3.2.4
+        version: 3.2.4(prettier@3.2.4)(typescript@5.3.3)
+      prettier-plugin-packagejson:
+        specifier: ^2.4.9
+        version: 2.4.9(prettier@3.2.4)
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+  apps/microApp2:
+    dependencies:
+      '@ant-design/icons':
+        specifier: ^5.2.6
+        version: 5.2.6(react-dom@18.2.0)(react@18.2.0)
+      '@ant-design/pro-components':
+        specifier: ^2.6.48
+        version: 2.6.48(antd@5.13.2)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.2.0)
+      '@umijs/max':
+        specifier: ^4.1.1
+        version: 4.1.1(@babel/core@7.23.7)(@types/react-dom@18.2.18)(@types/react@18.2.48)(dva@2.5.0-beta.2)(prettier@3.2.4)(rc-field-form@1.41.0)(react-dom@18.2.0)(react@18.2.0)(typescript@5.3.3)(webpack@5.90.0)
+      antd:
+        specifier: ^5.13.2
+        version: 5.13.2(react-dom@18.2.0)(react@18.2.0)
+    devDependencies:
+      '@types/react':
+        specifier: ^18.2.48
+        version: 18.2.48
+      '@types/react-dom':
+        specifier: ^18.2.18
+        version: 18.2.18
+      lint-staged:
+        specifier: ^15.2.0
+        version: 15.2.0
+      prettier:
+        specifier: ^3.2.4
+        version: 3.2.4
+      prettier-plugin-organize-imports:
+        specifier: ^3.2.4
+        version: 3.2.4(prettier@3.2.4)(typescript@5.3.3)
+      prettier-plugin-packagejson:
+        specifier: ^2.4.9
+        version: 2.4.9(prettier@3.2.4)
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
   master:
     dependencies:
       '@ant-design/icons':
@@ -1953,7 +2027,7 @@ packages:
     peerDependencies:
       react: '>=16.3.0'
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       hoist-non-react-statics: 3.3.2
       react: 18.1.0
       react-is: 16.13.1
@@ -1965,7 +2039,7 @@ packages:
     peerDependencies:
       react: '>=16.3.0'
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-is: 16.13.1
@@ -2117,7 +2191,7 @@ packages:
       postcss: '>=7.0.0'
       postcss-syntax: '>=0.36.2'
     dependencies:
-      '@babel/core': 7.23.6
+      '@babel/core': 7.23.7
       postcss: 8.4.33
       postcss-syntax: 0.36.2(postcss@8.4.33)
     transitivePeerDependencies:
@@ -2375,7 +2449,7 @@ packages:
     resolution: {integrity: sha512-hy8b7Y1J8OGe6LbAjj3xniQrj3v6lsivCcrmf4TzSgPzLkhIeKgc5IZnT7ReIqmEuodjfO8EYAuoFvIrHi/+jQ==}
     deprecated: This is a stub types definition. history provides its own type definitions, so you do not need this installed.
     dependencies:
-      history: 4.10.1
+      history: 5.3.0
     dev: false
 
   /@types/hoist-non-react-statics@3.3.5:
@@ -2457,7 +2531,7 @@ packages:
       '@types/history': 4.7.11
       '@types/react': 18.2.48
       '@types/react-router': 5.1.20
-      redux: 3.7.2
+      redux: 4.2.1
     dev: false
 
   /@types/react-router@5.1.20:
@@ -2863,7 +2937,7 @@ packages:
   /@umijs/history@5.3.1:
     resolution: {integrity: sha512-/e0cEGrR2bIWQD7pRl3dl9dcyRGeC9hoW0OCvUTT/hjY0EfUrkd6G8ZanVghPMpDuY5usxq9GVcvrT8KNXLWvA==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       query-string: 6.14.1
     dev: false
 
@@ -5787,7 +5861,7 @@ packages:
   /history@5.3.0:
     resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
     dev: false
 
   /hmac-drbg@1.0.1:
@@ -9109,7 +9183,7 @@ packages:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 18.1.0
@@ -9124,7 +9198,7 @@ packages:
       react: ^16.6.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.6.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      '@babel/runtime': 7.23.6
+      '@babel/runtime': 7.23.8
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 18.2.0
